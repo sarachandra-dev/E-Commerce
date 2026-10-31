@@ -78,15 +78,6 @@ npm run dev
 
 ---
 
-## Default Accounts
-
-| Role  | Email                    | Password    |
-|-------|--------------------------|-------------|
-| Admin | admin@shopsphere.com     | password123 |
-| User  | john@example.com         | password123 |
-
----
-
 ## API Docs
 
 See [docs/API_Documentation.md](docs/API_Documentation.md) for full API reference.
