@@ -1,0 +1,49 @@
+# ── Secrets & Environment ──────────────────────────────
+.env
+.env.local
+.env.*.local
+backend/.env
+application-local.properties
+application-dev.properties
+application-prod.properties
+
+# ── Java / Maven ───────────────────────────────────────
+target/
+*.class
+*.jar
+*.war
+*.ear
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# ── Node / React ───────────────────────────────────────
+node_modules/
+dist/
+.vite/
+frontend/.env
+frontend/.env.local
+
+# ── IDE ────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.classpath
+.project
+.settings/
+
+# ── OS ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Temp / Scripts with credentials ───────────────────
+*.bat
+check.sql
+cleanup.bat
+clear_users.bat
+run_schema.bat
+seed.bat
+check.sql
